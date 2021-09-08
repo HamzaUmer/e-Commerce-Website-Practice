@@ -1,0 +1,350 @@
+/*..............
+1. Header Section
+.................*/
+
+.main-header {
+  height: 80px;
+  line-height: 80px;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  display: block;
+  width: 100%;
+}
+
+.menu li {
+  display: inline-block;
+  margin: 0 14px;
+}
+
+.menu li a {
+  color: black;
+  font-size: 18px;
+}
+
+.cart-image img {
+  margin-top: -168px;
+  margin-left: 620px;
+}
+/*..............
+2. Featured Area
+.................*/
+.featured-area {
+  height: 790px;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+
+.content {
+  margin-top: 200px;
+}
+.content h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.content p {
+  font-size: 16px;
+  font-family: arial;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 200px;
+  height: 45px;
+  background: #e66903;
+  border: 2px solid #e66903;
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
+  background: #720a0a;
+  border: 2px solid #580606;
+}
+
+.featured-picture {
+  margin-top: 80px;
+}
+/*..............
+3. Featured Images
+.................*/
+.featured-images {
+  height: 400px;
+}
+.featured-images-picture {
+  margin-top: 60px;
+}
+/*..............
+4. Featured Products & Latest Products
+.................*/
+.Feature-products {
+  height: 2000px;
+}
+.title {
+  text-align: center;
+  margin: 100px auto 80px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title::after {
+  content: "";
+  background: #ff523b;
+  width: 120px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feature-product-detail h4 {
+  padding-left: 2px;
+  padding-top: 5px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.rating {
+  color: rgb(226, 64, 0);
+}
+.red-col:hover,
+.shoe-col:hover,
+.pant-col:hover,
+.blue-col:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.title1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 400px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Arial;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+.title1::after {
+  content: "";
+  background: #ff523b;
+  width: 120px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.latest-product-detail1 {
+  margin-top: 80px;
+}
+
+.latest-product-detail2 {
+  margin-top: 50px;
+}
+
+/*..............
+5. Exclusive Product
+.................*/
+.exclusive-products {
+  height: 550px;
+  background: radial-gradient(#fff, #ffd6d6);
+}
+.exclusive-product-image {
+  margin-top: 80px;
+}
+
+.exclusive-product-image:hover {
+  transform: translateY(-10px);
+}
+
+.exclusive-product-content {
+  margin-top: 200px;
+}
+
+.exclusive-product-content h4 {
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.exclusive-product-content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.exclusive-product-content p {
+  font-size: 16px;
+}
+/*..............
+6. Testimonial
+.................*/
+.testimonial {
+  height: 700px;
+}
+
+.testimonial-detail {
+  margin-top: 100px;
+  text-align: center;
+}
+.testimonial-detail .col-sm-4 {
+  box-shadow: 8px 5px 12px -2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  height: 400px;
+}
+
+.quote-design {
+  color: rgb(226, 64, 0);
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.testimonial-detail img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.testimonial-detail h6 {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.testimonial-detail p {
+  margin-bottom: 1px;
+}
+.testimonial-detail .col-sm-4:hover {
+  transform: translateY(-10px);
+}
+
+.brand-detail {
+  margin-top: 130px;
+  color: black;
+}
+.brand-detail .col-sm-2 {
+  margin-left: 35px;
+}
+.brand-detail img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale();
+}
+
+.brand-detail img:hover {
+  transform: translateY(-10px);
+  transition: 0.4s ease;
+}
+
+/*..............
+7. Footer
+.................*/
+.main-footer {
+  height: 250px;
+  background-color: #000;
+}
+
+.main-footer-content h2 {
+  margin-top: 50px;
+  margin-left: -200px;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.main-footer-content p {
+  margin-left: -200px;
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.main-footer-content .playstorei {
+  margin-left: -200px;
+}
+.footer-col2 {
+  margin-top: 50px;
+}
+.footer-col2 a {
+  margin-left: 20px;
+}
+.footer-col2 p {
+  margin-top: 28px;
+  margin-left: -100px;
+  text-align: center;
+  color: gray;
+}
+.footer-col3 {
+  text-align: center;
+}
+.footer-col3 h2 {
+  margin-left: 23px;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col3 li {
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.footer-col3 li a {
+  color: gray;
+}
+
+.footer-col4 {
+  text-align: center;
+}
+.footer-col4 h2 {
+  margin-right: -300px;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col4 li {
+  margin-right: -50px;
+  list-style: none;
+}
+
+.footer-col4 li a {
+  color: gray;
+}
+footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin-left: 130px;
+  margin-right: 300px;
+}
+
+.copyright {
+  text-align: center;
+  background: black;
+  margin-top: -5px;
+}
